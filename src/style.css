@@ -73,6 +73,7 @@ button{
 .page{
     border: dashed white 1px;
     border-radius: 8px;
+    height: auto;
 }
 
 .menu-content{
@@ -84,6 +85,7 @@ button{
     justify-content: end;
     text-align: center;
     width: 400px;
+    
     padding-right: 50px;
     
 }
