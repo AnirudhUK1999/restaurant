@@ -65,12 +65,14 @@ button {
   justify-content: end;
   padding: 20px;
   padding-right: 250px;
+  max-height: 500px;
 }
 
 .page {
   border: dashed white 1px;
   border-radius: 8px;
   /* height: auto; */
+  /* height: 400px; */
 }
 
 .menu-content {
