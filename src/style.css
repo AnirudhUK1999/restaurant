@@ -1,115 +1,115 @@
 @font-face {
-    font-family: merinda;
-    src: url('../src/fonts/Merienda/static/Merienda-Medium.ttf');
+  font-family: merinda;
+  src: url("../src/fonts/Merienda/static/Merienda-Medium.ttf");
 }
 
 @font-face {
-    font-family: hind;
-    src: url('../src/fonts/Hind/Hind-Medium.ttf');
+  font-family: hind;
+  src: url("../src/fonts/Hind/Hind-Medium.ttf");
 }
 
-
-html,body{
-    margin: 0;
-    height: 100%;
-    font-family: hind;
-    
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: hind;
 }
-body{
-    display: grid;    
-    grid-template-rows: 1fr 12fr;
-    gap: 0px;
-    background-image: url("./pexels-cats-coming-1907227.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #000000;
+body {
+  display: grid;
+  grid-template-rows: 1fr 12fr;
+  gap: 0px;
+  background-image: url("./pexels-cats-coming-1907227.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #000000;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    border-bottom: solid white 1px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: solid white 1px;
 }
-#content{
-    display: flex;
-    width: auto;  
-    justify-content: flex-end;
-}
-
-button{
-    background-color: #000000;
-    color: #f8fafc;
-    padding: 10px;
-    border-radius: 6px;
-    border: none;
-    font-family: hind;
-    font-size: 16px;
+#content {
+  display: flex;
+  width: auto;
+  justify-content: flex-end;
 }
 
-
-#content-container{
-    color: #f8fafc;
-    text-align: center;
-    padding: 50px;
-    width: 400px;
-    margin-right: 200px;
-    text-align: justify;
-    justify-content: center;
+button {
+  background-color: #000000;
+  color: #f8fafc;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-family: hind;
+  font-size: 16px;
 }
 
-.desc-text{
-    font-size: 12px;
-    text-align: left;
+#content-container {
+  color: #f8fafc;
+  text-align: center;
+  padding: 50px;
+  width: 400px;
+  margin-right: 200px;
+  text-align: justify;
+  justify-content: center;
 }
 
-.menu-container{
-    display: grid;
-    justify-content: end;
-    padding: 20px;
-    padding-right: 250px;
-
+.desc-text {
+  font-size: 12px;
+  text-align: left;
 }
 
-.page{
-    border: dashed white 1px;
-    border-radius: 8px;
-    height: auto;
+.menu-container {
+  display: grid;
+  justify-content: end;
+  padding: 20px;
+  padding-right: 250px;
 }
 
-.menu-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    color: white;
-    align-self: center;
-    align-content: center;
-    justify-content: end;
-    text-align: center;
-    width: 400px;
-    
-    padding-right: 50px;
-    
+.page {
+  border: dashed white 1px;
+  border-radius: 8px;
+  /* height: auto; */
 }
 
-.menu-left{
-    border-right: solid white 1px;
-    font-size: larger;
-}
-.menu-left,.menu-right{
-    align-self: center;
-}
-.menu-right{
-    font-size: 20px;
-    text-align: left;
-}
-
-li{
-    margin-top: 10px;
+.menu-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  align-self: center;
+  align-content: center;
+  justify-content: end;
+  text-align: center;
+  width: 400px;
+  /* text-overflow: ellipsis; */
+  padding-right: 50px;
 }
 
-.page-footer{
-    display: flex;
-    color: white;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding: 10px;
+.menu-left {
+  border-right: solid white 1px;
+  font-size: larger;
+}
+.menu-left,
+.menu-right {
+  align-self: center;
+}
+.menu-right {
+  font-size: 20px;
+  text-align: left;
+  overflow: scroll;
+  height: 450px;
+  scrollbar-width: none;
+}
+
+li {
+  margin-top: 10px;
+}
+
+.page-footer {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px;
 }
